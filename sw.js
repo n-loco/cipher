@@ -11,6 +11,7 @@ this.addEventListener('install', (event) => {
         caches.open(stccacheName).then((cache) => {
 
             return cache.addAll([
+                `${ghpath}`,
                 `${ghpath}/index.html`,
                 `${ghpath}/ui/root.css`,
                 `${ghpath}/ui/window.css`,
