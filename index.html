@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="media/favicon.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="ui/window.css">
+    <link rel="stylesheet" href="ui/elements.css">
     
     <title>Cipher</title>
     <link rel="apple-touch-icon" href="media/256-mask.png">
@@ -16,7 +19,6 @@
         if ('serviceWorker' in navigator) {
 
             navigator.serviceWorker.register('./sw.js')
-            console.log('SW')
 
         }
 
@@ -46,9 +48,11 @@
 
         </div>
         -->
-        <div>
+        <div class="txtbox">
 
-            <div class="txtbox">
+            <div>
+
+                <h1>Texto Descriptografado</h1>
 
                 <textarea id="txtf"></textarea>
                 <div>
@@ -58,7 +62,9 @@
                 </div>
 
             </div>
-            <div class="txtbox">
+            <div>
+
+                <h1>Texto Criptografado</h1>
 
                 <textarea id="txtfc"></textarea>
                 <div>

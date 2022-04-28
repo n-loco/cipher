@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root {
+
+    --bg: #09090d;
+    --mainbox: #18181c;
+    --fco: #abb1c8;
+
+    --colr1: #006ef5;
+    --colr2: #004faf;
+    --colr3: #0e1f6b;
+    --colr4: #0f0b54;
+    --colr5: #222131;
+
+    --mfont: monospace;    
+
+}
+
+* {
+
+    font-family: var(--mfont);
+    font-size: 1.01em;
+
+    padding: 0px;
+
+    border: none;
+
+    margin: 0px;
+
+}

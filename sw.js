@@ -1,4 +1,4 @@
-const stccacheName = "cipherCache_04_27_2022"
+const stccacheName = "cipherCache_04_28_2022"
 
 this.addEventListener('install', (event) => {
 
@@ -10,7 +10,9 @@ this.addEventListener('install', (event) => {
 
             return cache.addAll([
                 './index.html',
-                './ui/window.css'
+                './ui/root.css',
+                './ui/window.css',
+                './ui/elements.css'
             ])
 
         })
