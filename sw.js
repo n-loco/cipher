@@ -1,4 +1,6 @@
-const stccacheName = "cipherCache_04_28_2022"
+const ghpath = "/cipher/"
+
+const stccacheName = "cipherCache_04_28.1_2022"
 
 this.addEventListener('install', (event) => {
 
@@ -9,10 +11,10 @@ this.addEventListener('install', (event) => {
         caches.open(stccacheName).then((cache) => {
 
             return cache.addAll([
-                './index.html',
-                './ui/root.css',
-                './ui/window.css',
-                './ui/elements.css'
+                `${ghpath}/index.html`,
+                `${ghpath}/ui/root.css`,
+                `${ghpath}/ui/window.css`,
+                `${ghpath}/ui/elements.css`
             ])
 
         })
