@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="desktop.svg"
+   inkscape:export-filename="../desktop.png"
+   inkscape:export-xdpi="48"
+   inkscape:export-ydpi="48"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-page="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:zoom="1.158716"
+     inkscape:cx="264.08542"
+     inkscape:cy="319.31897"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs2">
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask1246">
+      <rect
+         style="font-variation-settings:'wght' 800;fill:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1248"
+         width="484.24646"
+         height="484.24646"
+         x="13.876773"
+         y="13.876773"
+         ry="71.016533" />
+    </mask>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="bg">
+    <image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="512"
+       height="512"
+       xlink:href="BG.svg"
+       id="image939"
+       x="0"
+       y="0"
+       style="fill:#ffffff"
+       mask="url(#mask1246)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="padlock">
+    <image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="512"
+       height="512"
+       xlink:href="padlock.svg"
+       id="image850"
+       x="0"
+       y="0" />
+  </g>
+</svg>
