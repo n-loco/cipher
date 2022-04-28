@@ -1,14 +1,15 @@
 const GHPATH = '/cipher';
 const APP_PREFIX = 'cipher_';
-const VERSION = 'v_0.0.4';
+const VERSION = 'v_0.1.0';
 const URLS = [    
   `${GHPATH}/`,
+  `${GHPATH}/manifest.json`,
   `${GHPATH}/index.html`,
   `${GHPATH}/media/favicon.svg`,
   `${GHPATH}/ui/root.css`,
   `${GHPATH}/ui/window.css`,
   `${GHPATH}/ui/elements.css`,
-  `${GHPATH}/manifest.json`
+  `${GHPATH}/js/shrd.js`
 ]
 
 const CACHE_NAME = APP_PREFIX + VERSION

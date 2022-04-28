@@ -6,7 +6,7 @@
     "start_url": "/cipher/",
     "theme_color": "#000000",
     "background_color": "#000000",
-    "orientation": "any",
+    "orientation": "portrait-primary",
     "display": "standalone",
     "icons": [
         {
