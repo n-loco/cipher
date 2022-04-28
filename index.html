@@ -4,14 +4,23 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <!--|      PWA      |-->
-    <title>Cipher</title>
     <link rel="shortcut icon" href="media/favicon.svg" type="image/svg+xml">
-
-    <link rel="manifest" href="manifest.json">
-
+    
+    <title>Cipher</title>
+    <link rel="apple-touch-icon" href="media/256-mask.png">
+    <meta name="theme-color" content="#000000"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <script>
+
+        if ('serviceWorker' in navigator) {
+
+            navigator.serviceWorker.register('./sw.js')
+            console.log('SW')
+
+        }
+
+    </script>
     
 </head>
 <body>
