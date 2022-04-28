@@ -1,6 +1,6 @@
 const GHPATH = '/cipher';
 const APP_PREFIX = 'cipher_';
-const VERSION = 'v_0.0.3';
+const VERSION = 'v_0.0.4';
 const URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
