@@ -19,7 +19,10 @@
 
         if ('serviceWorker' in navigator) {
 
-            navigator.serviceWorker.register('/cipher/sw.js')
+            navigator.serviceWorker.register(
+                '/cipher/sw.js',
+                {scope: '/cipher/'}
+            )
 
         }
 
