@@ -2,7 +2,7 @@
     "name": "Cipher",
     "short_name": "Cipher",
     "description": "A cipher-based encryption app",
-    "start_url": "https://n-loco.github.io/cipher/",
+    "start_url": "/",
     "theme_color": "#000000",
     "background_color": "#000000",
     "orientation": "any",
@@ -23,6 +23,18 @@
         {
             "src": "media/256-mask.png",
             "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "media/512-any.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "media/512-mask.png",
+            "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"
         }
