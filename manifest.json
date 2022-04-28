@@ -2,7 +2,7 @@
     "name": "Cipher",
     "short_name": "Cipher",
     "description": "A cipher-based encryption app",
-    "scope": "/cipher",
+    "scope": "/cipher/",
     "start_url": "/cipher/",
     "theme_color": "#000000",
     "background_color": "#000000",

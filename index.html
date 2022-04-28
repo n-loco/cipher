@@ -17,7 +17,7 @@
     <link rel="manifest" href="/cipher/manifest.json">
     <script>
 
-        if ('serviceWorker' in navigator) {
+        if (navigator.serviceWorker) {
 
             navigator.serviceWorker.register(
                 '/cipher/sw.js',
