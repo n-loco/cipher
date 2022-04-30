@@ -4,8 +4,8 @@
     "description": "A cipher-based encryption app",
     "scope": "/cipher/",
     "start_url": "/cipher/",
-    "theme_color": "#000000",
-    "background_color": "#000000",
+    "theme_color": "#030305",
+    "background_color": "#030305",
     "orientation": "portrait-primary",
     "display": "standalone",
     "icons": [
