@@ -28,7 +28,7 @@ textarea:focus-visible {
 
 }
 
-input {
+input[ type="button" ] {
 
     color: var(--fco);
 
@@ -47,7 +47,9 @@ input {
 
 }
 
-input:hover {
+input[ type="button" ]:hover {
+
+    cursor: pointer;
 
     color: white;
 
@@ -57,7 +59,7 @@ input:hover {
 
 }
 
-input:active {
+input[ type="button" ]:active {
 
     background-color: var(--colr2);
 

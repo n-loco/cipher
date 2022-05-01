@@ -1,6 +1,6 @@
 const GHPATH = '/cipher';
 const APP_PREFIX = 'cipher_';
-const VERSION = 'v_0.1.1';
+const VERSION = 'v_0.2.0';
 const URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/manifest.json`,
