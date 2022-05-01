@@ -42,7 +42,7 @@ function encrypt(input, output, op = -1) {
 
         } else if ( op === 1 && i === item.length - 1 ) {
 
-            return res[0]
+            return item[0]
 
         } else {
 
